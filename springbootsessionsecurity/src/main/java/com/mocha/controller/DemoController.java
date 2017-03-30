@@ -9,17 +9,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * Created by Leo.zhang on 2017/3/30.
  */
 @Controller
-@RequestMapping("/mocha")
 public class DemoController {
     @RequestMapping(value = "/index",method = RequestMethod.GET)
     public String index(){
-
         return "index";
     }
 
     @RequestMapping(value = "/home",method = RequestMethod.GET)
     public String home(){
-
         return "index";
     }
 

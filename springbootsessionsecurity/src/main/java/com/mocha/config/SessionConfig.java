@@ -16,7 +16,7 @@ public class SessionConfig {
     @Bean
     public JedisConnectionFactory connectionFactory() {
         JedisConnectionFactory factory =new JedisConnectionFactory();
-        factory.setHostName("192.168.1.216");
+        factory.setHostName("192.168.109.99");
         factory.setPassword("mocha");
         return factory;
     }
