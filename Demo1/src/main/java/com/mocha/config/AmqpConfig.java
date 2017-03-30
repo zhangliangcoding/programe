@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
 /**
- * Description:
+ * Description: rabbitmq配置
  * Created by Leo.zhang on 2017/3/29.
  */
 @Configuration
