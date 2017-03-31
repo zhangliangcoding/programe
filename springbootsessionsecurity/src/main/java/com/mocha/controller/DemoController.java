@@ -10,23 +10,30 @@ import org.springframework.web.bind.annotation.RequestMethod;
  */
 @Controller
 public class DemoController {
+
     @RequestMapping(value = "/index",method = RequestMethod.GET)
-    public String index(){
+    public String mochaIndex(){
+        System.out.println("index========");
         return "index";
     }
 
     @RequestMapping(value = "/home",method = RequestMethod.GET)
-    public String home(){
+    public String mochaHome(){
+        System.out.println("home========");
         return "index";
     }
 
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
-    public String hello() {
+    public String mochaHello() {
+
+        System.out.println("hello========");
         return "hello";
     }
 
     @RequestMapping(value = "/login",method = RequestMethod.GET)
-    public String login() {
+    public String mochaLogin() {
+
+        System.out.println("login========");
         return "login";
     }
 
