@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    name: test
+    password: hot4el
+    username: hotel
+    url: jdbc:mysql://101.37.20.31:3306/test
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+server:
+  port: 8080
+
+
+mybatis:
+  mapper-locations: com/mocha/mapper/*.xml
+  type-aliases-package: com.mocha.bean
+
