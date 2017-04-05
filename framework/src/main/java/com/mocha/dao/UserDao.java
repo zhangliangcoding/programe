@@ -16,7 +16,7 @@ public interface UserDao {
 //
 //    void update(User user);
 
-    //@Select("select * from user where name = #{name}")
+    @Select("select * from user where name = #{name}")
     User select(String name);
 
 }
