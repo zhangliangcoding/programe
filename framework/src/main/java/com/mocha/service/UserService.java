@@ -27,12 +27,12 @@ public class UserService {
         return dao.select(name);
     }
 
-//    public void insert(User user) {
-//        dao.insert(user);
-//    }
-//
-//    public void update(User user) {
-//        dao.update(user);
-//    }
+    public void insert(User user) {
+        dao.insert(user);
+    }
+
+    public void update(User user) {
+        dao.update(user);
+    }
 
 }
